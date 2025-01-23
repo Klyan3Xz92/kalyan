@@ -20,13 +20,6 @@ int main()
 {
         int p[]={10,2,111,3};
         int size=sizeof(p)/sizeof(p[0]);
-        if(checkifexist(p,size))
-        {
-                puts("True");
-        }
-        else
-        {
-                puts("False");
-        }
+        checkifexist(p,size)?puts("True"):puts("False");
 
 }
